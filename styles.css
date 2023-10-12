@@ -24,6 +24,14 @@ h1, h2 {
     margin-bottom: 10px;
 }
 
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
 p, ul {
     margin: 5px 0;
 }
@@ -68,6 +76,28 @@ section {
 @media (max-width: 800px) {
     section {
         margin: 20px 10px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    h1 {
+        font-size: 1.5em;
+    }
+
+    h2 {
+        font-size: 1.2em;
+    }
+
+    li {
+        margin: 10px 0;
+    }
+
+    a {
+        padding: 15px;
+    }
+
+    section {
+        padding: 15px;
     }
 }
 
