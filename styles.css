@@ -1,0 +1,80 @@
+/* styles.css */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f7;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* 100% of the viewport height */
+    margin: 0;
+}
+
+header {
+    background-color: #003366;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0px 3px 10px rgba(0,0,0,0.1);
+    flex-shrink: 0; /* Prevents shrinking */
+}
+
+h1, h2 {
+    margin-bottom: 10px;
+}
+
+p, ul {
+    margin: 5px 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: #e6f3ff; /* Light Blue */
+    margin: 5px 0;
+    border-radius: 5px; /* Rounded Corners */
+    transition: background-color 0.3s ease-in-out;
+}
+
+li:hover {
+    background-color: #cce4ff; /* Lighter Blue on hover */
+}
+
+a {
+    color: #0066cc;
+    text-decoration: none;
+    display: block; /* Makes the whole list item clickable */
+    padding: 10px;
+    transition: color 0.3s ease-in-out;
+}
+
+a:hover, a:focus {
+    color: #0099ff;
+}
+
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 3px 10px rgba(0,0,0,0.1);
+    flex-grow: 1; /* Takes up all available space */
+}
+
+@media (max-width: 800px) {
+    section {
+        margin: 20px 10px;
+    }
+}
+
+footer {
+    background-color: #003366;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    flex-shrink: 0; /* Prevents shrinking */
+}
